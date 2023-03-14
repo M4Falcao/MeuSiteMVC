@@ -1,0 +1,10 @@
+﻿@model HomeModel //uma view só pode receber uma model
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem vindo, @Model.Nome</h1>
+    <p>Esse é o meu primeiro site em MVC</p>
+    <span>Meu e-mail é: @Model.Email </span>
+</div>
